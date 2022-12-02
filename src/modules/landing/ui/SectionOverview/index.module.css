@@ -1,0 +1,56 @@
+.landing__section-overview {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    color: #111516;
+
+}
+
+.landing__section-overview__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.landing__section-overview__header h3 {
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.landing__section-overview__header a {
+    font-size: 1.2rem;
+    color: #198D99;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.landing__section-overview__card {
+    padding: 2.8rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 5px 20px #eee;
+    cursor: pointer;
+    transition: all 0.1s;
+    color: #111516;
+}
+
+.landing__section-overview__card:active {
+    background-color: #f3eeee;
+}
+
+.landing__section-overview__card__info {
+    margin-left: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.landing__section-overview__card__info h4 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.landing__section-overview__card__info p {
+    font-size: 1.2rem;
+    font-weight: 400;
+}

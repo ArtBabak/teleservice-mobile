@@ -1,0 +1,9 @@
+.ticket-description {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: calc(100% - 7.5rem);
+    background-color: #F5F6F6;
+    justify-content: space-between;
+}
+

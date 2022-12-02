@@ -1,0 +1,14 @@
+.prev-page-button {
+    height: 3.2rem;
+    width: 3.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.8rem;
+    color: #111516;
+    font-weight: 600;
+}

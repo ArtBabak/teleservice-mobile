@@ -1,0 +1,36 @@
+.login__form  {
+    display: flex;
+    flex-direction: column;
+}
+
+.login__form h2 {
+    margin-bottom: 2.4rem;
+}
+
+.login__form input {
+    margin-bottom: 1.2rem;
+    font-size: 1.4rem;
+    padding: 0.8rem;
+    height: 4rem;
+    width: 100%;
+    background-color: #F8F8F8;
+    border: none;
+    border-bottom: 1px solid #6C6D6E;
+}
+
+.login__form input:focus {
+    outline: none;
+    border-bottom: 1px solid #198D99;
+}
+
+.login__form a {
+    margin: 1.6rem 0 4.8rem auto;
+    font-weight: 600;
+    color: #6C6D6E;
+    font-size: 1.2rem;
+}
+
+.login__form a:hover {
+    cursor: pointer;
+    color: #198D99;
+}

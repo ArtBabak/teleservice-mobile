@@ -1,0 +1,55 @@
+.ticket-selection-page {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 5.2rem 3.2rem 0 3.2rem;
+    height: 100%;
+    background-color: #F5F6F6;
+}
+
+.ticket-selection-page h3 {
+    font-size: 1.2rem;
+    color: #757474;
+    margin: 1rem auto;
+}
+
+.ticket-selection-page h2 {
+    font-size: 2.2rem;
+    color: #111516;
+}
+
+.ticket-selection-page__input {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 4rem;
+    padding: 0 1.6rem;
+
+}
+
+.ticket-selection-page__input input {
+    width: 100%;
+    border: none;
+    height: 100%;
+    font-size: 1.6rem;
+}
+
+.ticket-selection-page__input input:focus {
+    outline: none;
+}
+
+.ticket-selection-page__options {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 3.2rem;
+    grid-row-gap: 2.4rem;
+}
+
+.ticket-selection-page__anchor {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #198D99;
+    margin: 2rem auto;
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.ticket-description__header {
+    padding: 5.2rem 3.2rem 0 3.2rem;
+    border-bottom: 1px solid #cccccc;
+}
+
+.ticket-description__header h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin: 2rem 0 0 0;
+}
+
+.ticket-description__header p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #5b5b5b;
+}

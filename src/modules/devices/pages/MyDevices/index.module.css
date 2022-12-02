@@ -1,0 +1,30 @@
+.devices-page {
+    background-color: #F5F6F6;
+    height: 100%;
+}
+
+.devices-info {
+    padding: 6rem 3.2rem 0 3.2rem;
+}
+
+.devices-page h2 {
+    margin: 2.4rem 0;
+    font-weight: 600;
+    font-size: 2.2rem;
+}
+
+.devices-page h3 {
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.devices-list {
+    list-style: none;
+    padding: 2rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.devices-page__order-button {
+    padding: 3.2rem;
+}

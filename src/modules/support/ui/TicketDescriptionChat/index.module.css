@@ -1,0 +1,43 @@
+.ticket-description__chat {
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.ticket-description__bot-notification {
+    margin: 2rem 3.2rem;
+    padding: 0.8rem 1rem;
+    display: flex;
+    gap: 0.8rem;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.icon {
+    fill: #198D99;
+    background-color: #dddddd;
+    padding: 1rem;
+    width: 5.2rem;
+    height: 5.2rem;
+    border-radius: 50%;
+}
+
+.ticket-description__bot-notification_message {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    font-size: 1.4rem;
+    width: 80% ;
+    padding-right: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+}
+
+.ticket-description__bot-notification_message h3, .ticket-description__bot-notification_message a {
+    font-weight: 600;
+    color: #198D99;
+}
+
+.ticket-description__bot-notification_message a {
+    cursor: pointer;
+}

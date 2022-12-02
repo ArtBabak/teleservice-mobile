@@ -1,0 +1,29 @@
+.devices-page__single-device {
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    padding: 1.2rem 3.8rem;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.devices-page__single-device:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.devices-page__single-device:active {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.devices-page__single-device h4 {
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #111516;
+}
+
+.devices-page__single-device p {
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #757474;
+}

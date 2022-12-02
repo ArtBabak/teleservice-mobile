@@ -1,0 +1,24 @@
+.ticket-option {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+    height: 16.8rem;
+    box-shadow: 0px 10px 10px #ddd;
+    cursor: pointer;
+    padding: 1rem;
+    width: 100%;
+}
+
+.ticket-option:active {
+    transform: scale(105%);
+}
+
+.ticket-option p {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #111516;
+    text-align: center;
+}

@@ -1,0 +1,12 @@
+.send-button {
+    height: 4.6rem;
+    width: 5rem;
+    background-color: #198D99;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.send-button:active {
+    background-color: #0b494f;
+}

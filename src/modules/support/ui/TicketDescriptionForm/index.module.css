@@ -1,0 +1,15 @@
+.ticket-description__form {
+    padding: 2rem 3.2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.ticket-description__form input {
+    width: 100%;
+    border: none;
+    font-size: 1.6rem;
+    padding: 1rem;
+    border-radius: 4px;
+}
+

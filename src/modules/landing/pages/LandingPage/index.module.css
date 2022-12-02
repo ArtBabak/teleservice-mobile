@@ -1,0 +1,19 @@
+.landing-page {
+    padding: 0 3.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.landing-page h2 {
+    margin: 9rem 0 0 0;
+    color: #111516;
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+
+.landing-page__sections {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}

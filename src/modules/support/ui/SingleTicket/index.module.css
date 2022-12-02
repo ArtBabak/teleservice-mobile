@@ -1,0 +1,23 @@
+.single-ticket {
+    margin: 3.2rem;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    padding: 2rem 3rem;
+    font-size: 1.4rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+}
+
+.single-ticket h3 {
+    color: #198D99;
+    margin-bottom: 1rem;
+}
+
+.single-ticket span {
+    color: #198D99;
+    font-weight: 600;
+}
